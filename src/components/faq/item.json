@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_faq_items",
+  "info": {
+    "displayName": "Item",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "blocks"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "general",
+        "leaderboard",
+        "predictions"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,5 +1,4 @@
 {
-  "kind": "singleType",
   "collectionName": "globals",
   "info": {
     "singularName": "global",
@@ -20,7 +19,11 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images", "files", "videos"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
     },
     "siteDescription": {
       "type": "text",
@@ -31,5 +34,6 @@
       "repeatable": false,
       "component": "shared.seo"
     }
-  }
+  },
+  "kind": "singleType"
 }

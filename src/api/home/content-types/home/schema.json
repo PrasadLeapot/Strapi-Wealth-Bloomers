@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "heroSubtitle": {
+      "type": "string"
+    },
+    "introductionTitle": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "blocks"
+    },
+    "missionTitle": {
+      "type": "string"
+    },
+    "missionDescription": {
+      "type": "blocks"
+    },
+    "howItWorksTitle": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "component",
+      "component": "home.step",
+      "repeatable": true
+    },
+    "jewellersTitle": {
+      "type": "string"
+    },
+    "jewellers": {
+      "type": "component",
+      "component": "home.jeweller",
+      "repeatable": true
+    },
+    "appButtonText": {
+      "type": "string"
+    },
+    "appButtonUrl": {
+      "type": "string"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "playStoreUrl": {
+      "type": "string"
+    },
+    "appStoreUrl": {
+      "type": "string"
+    }
+  }
+}
