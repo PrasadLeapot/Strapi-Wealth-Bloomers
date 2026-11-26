@@ -49,6 +49,9 @@ export interface HomeStep extends Struct.ComponentSchema {
   attributes: {
     description: Schema.Attribute.Blocks;
     number: Schema.Attribute.String;
+    screenImage: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     title: Schema.Attribute.String;
   };
 }
