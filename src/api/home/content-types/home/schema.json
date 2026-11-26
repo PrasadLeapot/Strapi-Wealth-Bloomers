@@ -23,12 +23,6 @@
     "introduction": {
       "type": "blocks"
     },
-    "missionTitle": {
-      "type": "string"
-    },
-    "missionDescription": {
-      "type": "blocks"
-    },
     "howItWorksTitle": {
       "type": "string"
     },

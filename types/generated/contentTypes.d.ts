@@ -708,8 +708,6 @@ export interface ApiHomeHome extends Struct.SingleTypeSchema {
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::home.home'> &
       Schema.Attribute.Private;
-    missionDescription: Schema.Attribute.Blocks;
-    missionTitle: Schema.Attribute.String;
     pageTitle: Schema.Attribute.String;
     playStoreUrl: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
